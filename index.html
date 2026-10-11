@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My JS Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<header>
+    <h1>My JS Calculator</h1>
+    <p><a href="https://github.com/devkamara">By Francis K.</a></p>
+</header>
+<body>
+    <div id="calculator">
+        <input type="text" id="result" readonly>
+        
+            <div id="operators">
+                
+                <button class="operator" value="+">+</button>
+                <button class="operator" value="-">-</button>
+                <button class="operator" value="*">x</button>
+                <button class="operator" value="/">/</button>
+            </div>
+        
+            <div id="numbers">
+                <button class="number" value="7" id="7">7</button>
+                <button class="number" value="8" id="8">8</button>
+                <button class="number" value="9" id="9">9</button>
+                <button class="number" value="4" id="4">4</button>
+                <button class="number" value="5"id="5">5</button>
+                <button class="number" value="6"id="6">6</button>
+                <button class="number" value="1" id="1">1</button>
+                <button class="number" value="2" id="2">2</button>
+                <button class="number" value="3" id="3">3</button>
+                <button class="number" value="0" id="0">0</button>
+                <button id="clear">C</button>
+                <button id="equals">=</button>
+            </div>
+
+            <div id="history">
+                <h2>History</h2>
+                <button id="clear-history">Clear History</button>
+                <ul id="history-list">
+                    <li></li>
+                </ul>
+                
+            </div>
+
+    </div>  
+ <script src="script.js"></script>
+</body> 
+</html>
